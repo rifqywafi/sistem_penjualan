@@ -1,0 +1,40 @@
+li:hover {
+  background-color: red;
+  opacity: 0.85;
+  color: white;
+  border-radius: 5px;
+}
+a:active {
+  background-color: red;
+  opacity: 0.85;
+  color: white;
+  border-radius: 5px;
+}
+.font1 {
+  font-family: serif, "Times New Roman";
+  color: white;
+  font-size: 25px;
+}
+.font2 {
+  font-family: serif, "Times New Roman";
+  color: #333;
+  font-size: 18px;
+}
+.kanan {
+  text-align: right;
+}
+.transparan {
+  opacity: 0.5;
+}
+@media print {
+  #buttonprint {
+    display: none;
+  }
+}
+.fab:hover {
+  color: red;
+}
+.tombol:hover {
+  background-color: red;
+  color: white;
+}
